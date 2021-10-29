@@ -264,7 +264,7 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 160px;
+    min-height: 155px;
     margin: 15px auto;
     padding: 15px;
     border-radius: 6px;
@@ -327,4 +327,97 @@ main {
     line-height: 18px;
     color: #808080;
 }
-
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 60vh;
+    background-image: url(./assets/images/bitcoinbaby2x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color:var(--white);
+}
+.main-plans-container{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin:0 auto;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.plans--title h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--warm-black);
+}
+.plans--title p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #757575;
+}
+.plans-container-slider{
+    width: 100%;
+    height: auto;
+}
+.plans-container--card{
+    position: relative;
+    width: 190px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+    background-color: var(--white);
+}
+.plans-container--title{
+    position: relative;
+    top: -10px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--bitcoin-orange);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: center;
+    color:var(--white);
+    padding: 8px;
+}
+.plans-card-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+.plans-card-price{
+    font-family: 'Inter', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    color:#000000;
+}
+.plans-card-price span{
+    position: absolute;
+    top: 66px;
+    left: 52px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #363636;
+}
