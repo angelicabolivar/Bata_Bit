@@ -475,19 +475,22 @@ footer {
     background-color: var(--bitcoin-orange);
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+    
 }
-.rrss p {
+.rrss a{
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
     font-family: 'DM Sans', sans-serif;
     color: var(--white);
-    margin-bottom: 8px;
+    text-decoration: none;
+    
 }
-footer span {
-    display: inline-block;
-    width: 64px;
-    height: 50px;
-    margin-left: 50px;
-    background-image: url(./assets/images/footer_img.svg);
+.rrss li {
+    list-style: none;
+    margin-bottom: 8px;
+    margin-right: 50px;
+    
+
 }
