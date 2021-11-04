@@ -122,14 +122,25 @@ main {
     
 }
 .main-exchange-container--title p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     color: #757575;
 
 }
+.main-tables-container{
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    padding: 30px 20px 0px 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    
+}
 .main-currency-table{
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -139,8 +150,7 @@ main {
 }
 .main-currency-table .currency-table--title{
     margin-bottom: 15px;
-    text-align: left;
-    padding-left: 15px;
+    text-align: center;
     font-size: 18px;
     font-weight: 700;
     line-height: 23px;
@@ -374,12 +384,10 @@ main {
 }
 .plans-container-slider{
     display: flex;
-    /*justify-content: center;*/
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    
 }
 .plans-container--card{
     position: relative;
@@ -473,10 +481,13 @@ footer {
     width: 100%;
     height: 150px;
     background-color: var(--bitcoin-orange);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    
+}
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
 }
 .rrss a{
     font-size: 14px;
@@ -490,7 +501,8 @@ footer {
 .rrss li {
     list-style: none;
     margin-bottom: 8px;
-    margin-right: 50px;
-    
-
+}
+.rigth img{
+    width: 64px;
+    height: 50px;
 }
